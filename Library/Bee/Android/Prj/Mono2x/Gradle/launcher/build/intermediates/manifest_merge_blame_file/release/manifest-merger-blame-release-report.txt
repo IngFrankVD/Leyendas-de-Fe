@@ -111,8 +111,8 @@
 61-->[:unityLibrary] /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-44
 62            android:resizeableActivity="false"
 62-->[:unityLibrary] /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:50:13-47
-63            android:screenOrientation="fullUser"
-63-->[:unityLibrary] /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:13-49
+63            android:screenOrientation="userLandscape"
+63-->[:unityLibrary] /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:13-54
 64            android:theme="@style/UnityThemeSelector" >
 64-->[:unityLibrary] /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:52:13-54
 65            <intent-filter>

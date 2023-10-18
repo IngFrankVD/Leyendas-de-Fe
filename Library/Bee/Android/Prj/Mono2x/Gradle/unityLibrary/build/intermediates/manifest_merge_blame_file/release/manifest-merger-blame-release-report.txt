@@ -82,17 +82,17 @@
 45            android:name="com.unity3d.player.UnityPlayerActivity"
 45-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:15-68
 46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-46-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:180-361
+46-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:185-366
 47            android:exported="true"
-47-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:433-456
+47-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:438-461
 48            android:hardwareAccelerated="false"
-48-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:397-432
+48-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:402-437
 49            android:launchMode="singleTask"
-49-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:148-179
+49-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:153-184
 50            android:resizeableActivity="false"
-50-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:362-396
-51            android:screenOrientation="fullUser"
-51-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:111-147
+50-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:367-401
+51            android:screenOrientation="userLandscape"
+51-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:111-152
 52            android:theme="@style/UnityThemeSelector" >
 52-->/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:69-110
 53            <intent-filter>

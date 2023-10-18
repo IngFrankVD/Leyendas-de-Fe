@@ -82,17 +82,17 @@ ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Andr
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-22:16
 	android:screenOrientation
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:111-147
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:111-152
 	android:launchMode
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:148-179
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:153-184
 	android:hardwareAccelerated
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:397-432
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:402-437
 	android:exported
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:433-456
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:438-461
 	android:resizeableActivity
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:362-396
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:367-401
 	android:configChanges
-		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:180-361
+		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:185-366
 	android:theme
 		ADDED from /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:69-110
 	android:name
