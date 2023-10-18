@@ -1,0 +1,373 @@
+Unity Editor version:    2022.3.10f1 (ff3792e53c62)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51183
+Successfully changed project path to: /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe
+/Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8182190848] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 4070117599 [EditorId] 4070117599 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-iFrank.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8182190848] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 4070117599 [EditorId] 4070117599 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-iFrank.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 10.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/frank/Proyectos/Leyendas de Fe/Leyendas de Fe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56162
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004423 seconds.
+- Loaded All Assemblies, in  0.277 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 222 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (369ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.373 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (50.6 KB). Loaded Objects now: 3535.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 2.771291 ms (FindLiveObjects: 0.140000 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.503583 ms  DeleteObjects: 0.088792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227831.717145 seconds.
+  path: Assets/texturas playground/grids/lowPolyScene.obj
+  artifactKey: Guid(50c260f907805483dab88ffdbe3bbd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/lowPolyScene.obj using Guid(50c260f907805483dab88ffdbe3bbd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba945bbba0c88ab28cd8aec4330c462') in 0.542790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 316
+========================================================================
+Received Import Request.
+  Time since last request: 12.542504 seconds.
+  path: Assets/texturas playground/grids/Green
+  artifactKey: Guid(2deb20233899a4e4d93250b1045b58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green using Guid(2deb20233899a4e4d93250b1045b58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653d6b0ae7fed5283dc4a4237c9afd1a') in 0.002188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035902 seconds.
+  path: Assets/texturas playground/grids/Green/texture_01.png
+  artifactKey: Guid(c91a9749d282040d297253559af4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_01.png using Guid(c91a9749d282040d297253559af4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97649e51c568ddee6f7c0a874e9f94e') in 0.041936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/texturas playground/grids/Green/texture_05.png
+  artifactKey: Guid(ec841e6a638c04399a75965e0d96512b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_05.png using Guid(ec841e6a638c04399a75965e0d96512b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d3fe133b9752ef2b4b2fbbd9c6397') in 0.009517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/texturas playground/grids/Green/texture_09.png
+  artifactKey: Guid(a43324d9f23bb493ebe13cea33504fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_09.png using Guid(a43324d9f23bb493ebe13cea33504fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a34b0d4cd4ba5ffe3a76a1f768cf46') in 0.009553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/texturas playground/grids/Green/texture_08.png
+  artifactKey: Guid(e41f91d03a1e847f3a83044c31c84ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_08.png using Guid(e41f91d03a1e847f3a83044c31c84ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98eeefd3c7676cdcb470ac36082315c') in 0.004852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/texturas playground/grids/Green/texture_10.png
+  artifactKey: Guid(3546ca6bbef70487c94e9ec7d8124713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_10.png using Guid(3546ca6bbef70487c94e9ec7d8124713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bc71eb3bc2c981648120c983ec63ae') in 0.004047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/texturas playground/grids/Green/texture_06.png
+  artifactKey: Guid(a7dee62fd9194451a973b01f3fa27a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_06.png using Guid(a7dee62fd9194451a973b01f3fa27a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb1fbadff3a26e0864d7c535fc0a84a') in 0.005074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/texturas playground/grids/Green/texture_07.png
+  artifactKey: Guid(72ec1dccadd024a7fa89f46a92ffa6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_07.png using Guid(72ec1dccadd024a7fa89f46a92ffa6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9732ee8fa672a78ddeefe939c1da6b') in 0.005994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/texturas playground/grids/Green/texture_12.png
+  artifactKey: Guid(0a99a837305a446e883e996a5bb98f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_12.png using Guid(0a99a837305a446e883e996a5bb98f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7266b8a4f628e4448a7b74fccb4f7c9d') in 0.009053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/texturas playground/grids/Green/texture_04.png
+  artifactKey: Guid(51aac8ecfa1f346c6bc35f5e2f9484e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_04.png using Guid(51aac8ecfa1f346c6bc35f5e2f9484e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dc2626d756a906270bd1ef62bd9627') in 0.006491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/texturas playground/grids/Green/texture_11.png
+  artifactKey: Guid(b513d005f107a495db5dd6aace992d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Green/texture_11.png using Guid(b513d005f107a495db5dd6aace992d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365c6bf85dfebd502d35463c8bdc4840') in 0.005836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.132265 seconds.
+  path: Assets/texturas playground/grids/Dark
+  artifactKey: Guid(055178396468d4ec2b8b2f759ddd462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark using Guid(055178396468d4ec2b8b2f759ddd462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01870298c9ca44861400db3fdbe64dd7') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049292 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_01.png
+  artifactKey: Guid(4769bd12cdb0e4e2181a956fd68e5593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_01.png using Guid(4769bd12cdb0e4e2181a956fd68e5593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d065d544d0cc68a549f75d3279762d') in 0.006985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_13.png
+  artifactKey: Guid(f198d620ef67441d79cc7c8c5b2eb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_13.png using Guid(f198d620ef67441d79cc7c8c5b2eb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e49e912f1526cc68823197a0cb1c1ae') in 0.005051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_12.png
+  artifactKey: Guid(c458c5cf40b014c25bc528178fa8bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_12.png using Guid(c458c5cf40b014c25bc528178fa8bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e2d6106f460a0a96ae360313fe9663') in 0.004839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_03.png
+  artifactKey: Guid(24cd4203df91b4b89a9efac87f35f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_03.png using Guid(24cd4203df91b4b89a9efac87f35f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20b80a07d0d9641b960ccb08f3ae6a7') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_10.png
+  artifactKey: Guid(805b32cfc4a744e59a73d4648828e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_10.png using Guid(805b32cfc4a744e59a73d4648828e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8bb4c9a8bf4f95004025924acaf431') in 0.005005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/texturas playground/grids/Dark/texture_11.png
+  artifactKey: Guid(efada3f0145a74a9ea6f8d9fad9cdf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/texture_11.png using Guid(efada3f0145a74a9ea6f8d9fad9cdf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578bf3b82223e2a7227223cd15a8b096') in 0.004547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.097352 seconds.
+  path: Assets/texturas playground/grids/Dark/Materials
+  artifactKey: Guid(1ea90b313a39f483a89b91af5c7b3d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/Materials using Guid(1ea90b313a39f483a89b91af5c7b3d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681b096d15d15226c5026b7ebbd14d8c') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039935 seconds.
+  path: Assets/texturas playground/grids/Dark/Materials/texture_01.mat
+  artifactKey: Guid(4faf04df2e4e9454cb6a44d429d8d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/Materials/texture_01.mat using Guid(4faf04df2e4e9454cb6a44d429d8d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b51237bd5118685920eccb9a5b04c6c') in 0.011054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.301421 seconds.
+  path: Assets/texturas playground/grids/Dark/Materials/texture_01.mat
+  artifactKey: Guid(4faf04df2e4e9454cb6a44d429d8d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas playground/grids/Dark/Materials/texture_01.mat using Guid(4faf04df2e4e9454cb6a44d429d8d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132251711216b3056b2925ba2da43803') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
