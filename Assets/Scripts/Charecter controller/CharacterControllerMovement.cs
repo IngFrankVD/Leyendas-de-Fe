@@ -13,23 +13,33 @@ public class CharacterControllerMovement : MonoBehaviour
     public Transform playerObj;
         
     [Header("Walk settings")]
-    [SerializeField]private float moveSpeed = 5.0f;
-    [SerializeField]private float rotationSpeed = 20.0f;
+    [SerializeField]private float GroundMoveSpeed = 8.0f;
+    [SerializeField]private float AirMoveSpeed = 5.0f;
+    private float speed;
+    private float rotationSpeed;
+    [SerializeField]private float GroundRotationSpeed = 10.0f;
+    [SerializeField]private float AirRotationSpeed = 1f;
     private CharacterController controller;
     Vector3 moveDirection ;
     float horizontalInput ;
     float verticalInput;
 
     [Header("Gravity settings")]
-    [SerializeField]private float _gravity = -9.81f;
-    [SerializeField] private float gravityMultiplier = 3.0f;
+    [SerializeField]private float _gravity = -9.81f; // uso -4
+    [SerializeField] private float gravityMultiplier = 3.0f; // uso 1
     private float _velocity;
     
 
     [Header("Jump settings")]
-    [SerializeField] private float maxNumberOfJumps = 2f;
-    [SerializeField] private float jumpPower = 2f;
+    [SerializeField] private float maxNumberOfJumps = 2f; // 
+    [SerializeField] private float jumpPower = 2f; // uso 1.5
     private float _numberOfJumps ;
+
+    [Header("Animation")]
+    public Animator animator;
+    public bool isJumping;
+    public bool isGrounded;
+
 
     void Start()
     {
@@ -60,13 +70,15 @@ public class CharacterControllerMovement : MonoBehaviour
     public void ApplyMovement(){
         if(floatingJoystick.Direction.magnitude > 0.3 || floatingJoystick.Direction.magnitude == 0){
             // Movemos al personaje utilizando Character Controller.
-            controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+            speed = IsGrounded() ? GroundMoveSpeed : AirMoveSpeed;
+            controller.Move(moveDirection * speed * Time.deltaTime);
         }
         // Rotamos el personaje en base a la entrada del jugador.
         Vector3 viewDir = player.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
         // roate player object
         Vector3 inputDir = forwardTransform.forward * verticalInput + forwardTransform.right * horizontalInput;
         if (inputDir != Vector3.zero){
+            rotationSpeed = IsGrounded() ? GroundRotationSpeed : AirRotationSpeed;
             playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
         }
     }
@@ -74,8 +86,19 @@ public class CharacterControllerMovement : MonoBehaviour
         // Funcion de gravedad
         if(IsGrounded() && _velocity < 0.0f){
             _velocity = -1.0f;
+            animator.SetBool("isGrounded", true);
+            isGrounded = true;
+            animator.SetBool("isJumping", false);
+            isJumping = false;
+            animator.SetBool("isFalling", false);
         }else{
             _velocity += _gravity * gravityMultiplier * Time.deltaTime;
+            animator.SetBool("isGrounded", false);
+            isGrounded = false;
+
+            if((isJumping && _velocity < 0 || _velocity < -1 )){
+                animator.SetBool("isFalling", true);
+            }
         }
         // Aplicamos la gravedad
         moveDirection.y = _velocity;
@@ -88,6 +111,8 @@ public class CharacterControllerMovement : MonoBehaviour
         
         _numberOfJumps++;
         _velocity = jumpPower;
+        animator.SetBool("isJumping", true);
+        isJumping = true;
     }
 
     private IEnumerator WaitForLanding()

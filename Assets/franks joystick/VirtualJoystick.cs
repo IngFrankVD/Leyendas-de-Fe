@@ -106,13 +106,13 @@ public class VirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler,
         float angleRadians = Mathf.Atan2(Vertical, Horizontal);
         handle.rotation = Quaternion.Euler(0,0,(angleRadians+1.5f) * Mathf.Rad2Deg);
 
-        if(Direction.magnitude > 0.6){
+        if(Direction.magnitude > 0.7){
             Background_in.gameObject.SetActive(false);
             Background_out.gameObject.SetActive(true);
             handle.gameObject.SetActive(true);
         }else{
             Background_in.gameObject.SetActive(true);
-            Background_in.sizeDelta = new Vector2( (Mathf.Lerp(256, 128, Direction.magnitude*1.7f)) , (Mathf.Lerp(256, 128, Direction.magnitude*1.7f)) );
+            Background_in.sizeDelta = new Vector2( (Mathf.Lerp(256, 128, Direction.magnitude*1.2f)) , (Mathf.Lerp(256, 128, Direction.magnitude*1.2f)) );
             Background_out.gameObject.SetActive(false);
             handle.gameObject.SetActive(false);
         }

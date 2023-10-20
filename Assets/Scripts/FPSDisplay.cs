@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FPSDisplay : MonoBehaviour
 {
-    public int targetFPS = 60; // FPS objetivo
+    public int targetFPS = 120; // FPS objetivo
 
     private float deltaTime = 0.0f;
 
