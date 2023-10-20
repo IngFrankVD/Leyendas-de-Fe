@@ -6,10 +6,11 @@ public class animationController : MonoBehaviour
 {
     public Animator animator;
     public VirtualJoystick Joystick;
-    public CharacterController controller;
+    public Rigidbody rb;
     
     private float valorSuavizado;
     private float velocidad;
+    Vector3 lastPosition = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,14 @@ public class animationController : MonoBehaviour
         
     }
 
+    void FixedUpdate()
+    {
+        velocidad = (transform.position - lastPosition).magnitude * 7;
+        lastPosition = transform.position;
+    }
     // Update is called once per frame
     void Update()
     {   
-        velocidad = controller.velocity.magnitude * 0.1f;
-
         if (Joystick.Direction.magnitude > 0.3){
             valorSuavizado = Mathf.Lerp(valorSuavizado, velocidad, 0.05f);
         } else {
